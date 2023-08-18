@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Cases Records">
+        <div class="slds-m-around_medium">
+            <lightning-datatable
+                key-field="Id"
+                data={CasesRecords.data}
+                columns={columns}
+                hide-checkbox-column>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

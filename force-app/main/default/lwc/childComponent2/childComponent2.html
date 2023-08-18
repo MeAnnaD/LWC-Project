@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Referrals Records">
+        <div class="slds-m-around_medium">
+            <lightning-datatable
+                key-field="Id"
+                data={referralsRecords.data}
+                columns={columns}
+                hide-checkbox-column>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+    
+</template>
